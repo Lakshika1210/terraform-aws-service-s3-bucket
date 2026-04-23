@@ -1,14 +1,6 @@
-# Service S3 Bucket
+## Modules Overview
 
-## Overview
-This module provisions an AWS S3 bucket using Terraform. It is simple, reusable, and configurable.
-
-## Usage
-
-```hcl
-module "s3" {
-  source  = "app.terraform.io/nipun-org/service-s3-bucket/aws"
-  version = "1.0.1"
-
-  bucket_name = "my-bucket"
-}
+| Module Name              | Latest Version | Provider | Registry |
+|-------------------------|---------------|----------|----------|
+| service-s3-bucket       | v1.0.1        | aws      | [View Module](https://github.com/Lakshika1210/terraform-aws-service-s3-bucket.git) |
+| service-lambda-function | v1.0.0        | aws      | [View Module](https://github.com/Lakshika1210/terraform-aws-service-lambda-function.git) |
